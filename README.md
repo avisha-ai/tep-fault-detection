@@ -79,10 +79,13 @@ Detection improves for nearly every fault when temporal context is added. The ga
 ## Repository
 
 ```
-data/           loading and preparation (pyreadr)
-notebooks/      exploration, feature construction, training, evaluation
-figures/        TEP flowsheet, Fault 6 stripper pressure trace
-paper/          full manuscript (PDF)
+notebooks/te_exploration.ipynb    exploration, features, training, and the run-level evaluation
+scripts/                          data exploration, figure generation, and dictionary verification
+docs/                             TEP variable dictionary + its verification report (0 mismatches vs teprob.f)
+figures/                          TEP flowsheet, Fault 6 stripper pressure traces
+data/                             dataset location (not committed — see data/README.md)
+PROJECT_LOG.md                    dated log of the analysis, including the leakage discovery
+TEP_Fault_Detection_Case_Study.pdf   full manuscript
 ```
 
 ## Reproducing
@@ -101,6 +104,7 @@ Two claims in this work were checked against primary sources rather than taken f
 
 - **Fault 6 is a loss of A feed** — confirmed against Downs & Vogel (1993) and four further sources.
 - **`xmeas_16` is Stripper Pressure** — confirmed from the simulator source. The baseline in the Fault 6 figure sits at approximately 3100 kPa, against a published nominal of 3102.2 kPa gauge.
+- The full variable dictionary (`docs/data_dictionary.md`) is verified entry-by-entry against `teprob.f` by `scripts/verify_data_dictionary.py` — currently **0 mismatches across all 53 variables**. An earlier draft mis-described the composition analyzers (`xmeas_23`–`xmeas_41`); the verification script caught it, and the correction is documented in the dictionary itself.
 
 ---
 
