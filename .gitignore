@@ -1,0 +1,23 @@
+# Raw TEP research data — deliberately excluded, not missing.
+# TEP_Faulty_Training.RData is 471 MB, far past GitHub's 100 MB hard limit.
+# See data/README.md for what these files are and how to obtain them.
+*.RData
+*.rdata
+
+# Local virtualenv — reproduce it from requirements.txt instead.
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Third-party simulator source, auto-downloaded and cached here by
+# scripts/verify_data_dictionary.py. Not ours to redistribute.
+data/teprob.f
