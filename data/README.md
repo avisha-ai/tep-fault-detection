@@ -17,21 +17,26 @@ it is third-party Fortran, not ours to redistribute.
 
 [1]: https://github.com/camaramm/tennessee-eastman-profBraatz
 
+## Sample extracts — committed
+
+Two 1,000-row extracts **are** committed, so the repo is useful without the 495 MB download:
+
+| File | Rows | From |
+|---|---|---|
+| `fault_free_training_first_1000.csv` | 1,000 | `TEP_FaultFree_Training.RData` |
+| `faulty_training_first_1000.csv` | 1,000 | `TEP_Faulty_Training.RData` |
+
+TEP is an open research benchmark and small samples are standard practice in ML repositories,
+so these excerpts sit comfortably within the source terms. They let anyone clone, inspect the
+schema, and sanity-check the pipeline before committing to the full download.
+
 ## Where the founders' local copies live
 
-Recorded during Brick 1 estate alignment, 12 August 2026. On Mrinal's machine the raw data
-sits outside this repo, deliberately:
+Recorded during Brick 1 estate alignment, 12 August 2026. The full raw data sits outside this
+repo, deliberately:
 
 ```
 ~/Documents/Avisha/_local/tep-data/
 ├── TEP_FaultFree_Training.RData          24 MB
-├── TEP_Faulty_Training.RData            471 MB
-├── fault_free_training_first_1000.csv   372 KB   1,000-row extract
-└── faulty_training_first_1000.csv       368 KB   1,000-row extract
+└── TEP_Faulty_Training.RData            471 MB
 ```
-
-The two CSV extracts are **not committed** for the same reason as the source data: a 1,000-row
-sample is still a partial redistribution of a dataset this repo declines to redistribute.
-Nothing in the repo references them. If the source terms turn out to permit small excerpts,
-they would be genuinely useful here — they would let anyone run the notebook without the
-495 MB download. That is a founder call, not an assumption to make silently.
