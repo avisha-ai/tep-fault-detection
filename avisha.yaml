@@ -1,0 +1,14 @@
+# Avisha project passport — the five-file contract.
+# Honest state only. A live_url is written only after it returned 200.
+id: tep-fault-detection
+name: "TEP Fault Detection"
+description: "Fault detection on the Tennessee Eastman Process — a leakage-safe ML study, and the technical foundation under the Topsoe expedition."
+repo: https://github.com/avisha-ai/tep-fault-detection
+live_url: null
+district: Vault
+stage: Operate
+status: active
+owner: Avisha AI
+last_updated: 2026-08-13
+next_action: "Hold as the evidence base for Expedition 001 — Topsoe."
+verified_at: "2026-08-13T16:00:00+05:30"
