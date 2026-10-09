@@ -30,7 +30,7 @@ TEP is an open research benchmark and small samples are standard practice in ML 
 so these excerpts sit comfortably within the source terms. They let anyone clone, inspect the
 schema, and sanity-check the pipeline before committing to the full download.
 
-## Where the founders' local copies live
+## Where the local copies live
 
 Recorded during Brick 1 estate alignment, 12 August 2026. The full raw data sits outside this
 repo, deliberately:
