@@ -118,6 +118,6 @@ Rieth, C.A., Amsel, B.D., Tran, R. and Cook, M.B. (2017). *Additional Tennessee 
 
 ## Author
 
-**Mrinal Gala** — process engineer. MS Chemical Engineering, University of Oklahoma. US Patent 2008/0200565 A1. Previously Jacobs Engineering, AkerKvaerner Powergas, SouthWest Nanotechnologies.
+**Mrinal Gala** — process engineer. MS Chemical Engineering, University of Oklahoma. US patent application 2008/0200565 A1. Previously Jacobs Engineering, AkerKvaerner Powergas, SouthWest Nanotechnologies.
 
 Built at [Avisha](https://avisha.ai) — an engineering intelligence atelier in Mumbai.
